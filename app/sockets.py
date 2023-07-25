@@ -40,7 +40,7 @@ async def ping_message(sid, data):
     await sio_server.emit("join", 'hello!~~ from server', room=sid)
 
 
-import socketio
+# import socketio
 
 # # create a Socket.IO server
 # sio_server = socketio.Server()
